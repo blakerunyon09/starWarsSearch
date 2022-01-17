@@ -1,5 +1,5 @@
 import search from './utils/search.js'
-import Card from './components/Card.js'
+import Card from './component/Card.js'
 
 let { results: charData, count } = await search()
 let pageCount = 1;
